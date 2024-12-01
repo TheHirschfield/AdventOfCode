@@ -6,10 +6,10 @@ rightList = []
 rightCount = {}
 
 #Read Input File
-f = open("resources/AOC24_01.txt", "r")
+file = open("resources/AOC24_01.txt", "r")
 
 #Place in Arrays
-for line in f:
+for line in file:
     content = line.split()
     if(len(content) == 2):
 
@@ -33,5 +33,6 @@ for i in range(0,len(leftList)):
         similarity += leftList[i] * rightCount[leftList[i]]
         print(similarity)
 
+#Return Answers
 print("The difference number is: ", difference)
 print("The similarity number is: ", similarity)
