@@ -1,4 +1,4 @@
-
+#Main Variables
 difference = 0
 similarity = 0
 leftList = []
@@ -24,8 +24,6 @@ for line in f:
 #Order
 leftList.sort()
 rightList.sort()
-
-print(rightCount)
 
 #Calculate Difference and Similarity
 for i in range(0,len(leftList)):
