@@ -31,7 +31,6 @@ for i in range(0,len(leftList)):
 
     if(rightCount.__contains__(leftList[i])):
         similarity += leftList[i] * rightCount[leftList[i]]
-        print(similarity)
 
 #Return Answers
 print("The difference number is: ", difference)
